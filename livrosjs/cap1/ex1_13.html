@@ -1,0 +1,15 @@
+<meta charset="utf-8" />
+<script>
+  // ler dado de entrada
+  const valorDaConta = Number(prompt("Digite o valor da conta"));
+  // valor a vista mais a operação
+  const desconto = valorDaConta * 0.1;
+  // valor a vista
+  const valorAvista = valorDaConta - desconto;
+  // valor parcelado
+  const valorParcelado = valorDaConta / 3;
+  // exibir mensagem
+  alert(
+    `Preço R$: ${valorDaconta.toFixed(2)} \n Á vista R$: ${valorAvista.toFixed(2)} \n Ou 3x de R$: ${valorParcelado.toFixed(2)}`,
+  );
+</script>
